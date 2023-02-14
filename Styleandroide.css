@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('./fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 } 
 
@@ -48,7 +48,7 @@ header > h1{
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
-    text-shadow: 2px 2px0px rgba(0, 0, 0, 0.267);
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.267);
 }
 
 header > p{
@@ -91,7 +91,7 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
-    box-shadow: 0px 0px rgba(0, 0, 0, 0.418);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     background-color: white;
     
 }
@@ -108,7 +108,7 @@ main h2{
     color: var(--cor4);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var(--cor1), transparent); /* faz uma trabparência para posiç]ao definida, nesse caso esta definido para direita */
     text-indent: 8px;
 }
 
@@ -182,7 +182,7 @@ aside > h3{
 
 aside > ul{
     list-style: inside;
-    list-style-type: '\2714\00A0\00A0';
+    list-style-type: '\2714\00A0\00A0'; /* referente a sinal de check na ul e o codogo 00A0 é pra da o espacamento entre check e o conteúdo */ 
     columns: 2;
 }
 
@@ -207,6 +207,8 @@ footer a:hover{
     text-decoration: underline;
     color: var(--cor4);
 }
+
+
 
 
 
